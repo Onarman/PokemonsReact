@@ -10,8 +10,6 @@
   max-width: 900px;
   margin: 0 auto;
   gap: 30px;
-
- 
 }
 .body{
   display: flex;
@@ -19,6 +17,18 @@
   justify-content: center;
   
 
+}
+body{
+  background-image: linear-gradient(90deg, hotpink,purple);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+h1,h3{
+  color: wheat;
 }
 
 .d-flex {
@@ -41,6 +51,7 @@
   flex-direction: column;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 .card-body {
   width: 100%;
@@ -62,4 +73,25 @@ input{
   border-radius: 5px;
   height: 2rem;
   margin-bottom: 1rem;
+  background:transparent;
+  color: white;
+  border: none;
 }
+input::placeholder{
+  color: wheat;
+}
+
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
