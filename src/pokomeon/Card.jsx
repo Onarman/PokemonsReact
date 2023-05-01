@@ -6,7 +6,7 @@ const Card = ({name,img}) => {
   return (
     <div className='card'>
         <h3>{name}</h3>
-        <LazyLoadImage src={img} alt="pok.img" />
+        <LazyLoadImage src={img} alt="pok.img" effect='blur' />
     </div>
   )
 }
